@@ -34,6 +34,16 @@ header {
   display: none;
 }
 
+.icon-open {
+  width: 30px;
+}
+
+
+.icon-closed {
+  background-color: yellowgreen;
+  width: 30px;
+}
+
 @media screen and (max-width: 550px) {
   .abrir-menu,
   .cerrar-menu {
