@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -10,7 +10,6 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
-  background-color: #ececec;
 }
 
 .logo {
@@ -20,7 +19,9 @@ header {
 .nav-list {
   list-style-type: none;
   display: flex;
-  gap: 1rem;
+  gap: 2.5rem;
+  margin-left: 10%;
+  width: 100%;
 }
 
 .nav-list li a {
@@ -63,7 +64,7 @@ header {
       right: 0;
       bottom: 0;
       background-color: #1c1c1c;
-      padding: 2rem;
+      padding: 3rem;
       box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
   }
 
