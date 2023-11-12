@@ -39,8 +39,9 @@ header {
 }
 
 
-.icon-closed {
-  background-color: yellowgreen;
+.icon-close {
+  background-color: #ececec;
+  border-radius: 7px;
   width: 30px;
 }
 
