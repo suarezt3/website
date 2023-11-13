@@ -13,6 +13,16 @@ export class MenuComponent {
 
 public nav: any;
 
+public itemsMenu: any[] = [
+
+  { 'ruta': 'Inicio',    'url': '/'},
+  { 'ruta': 'Quién soy', 'url': '/about' },
+  { 'ruta': 'Servicios', 'url': '/servicios' },
+  { 'ruta': 'Proyectos', 'url': '/proyectos' },
+  { 'ruta': 'Contacto',  'url': '/contacto' }
+
+]
+
 constructor(private elementRef: ElementRef) {}
 
 ngOnInit() {
