@@ -60,6 +60,15 @@ header {
 
   .abrir-menu {
       color: #1c1c1c;
+      position: fixed;
+      z-index: 10;
+      top: 20px;
+      right:20px;
+  }
+
+  .anticon-open {
+    font-size: 2rem;
+    color: #1c1c1c;;
   }
 
   .cerrar-menu {
