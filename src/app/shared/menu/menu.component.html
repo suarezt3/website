@@ -1,7 +1,7 @@
 <header>
-  <button id="abrir" (click)="abrir()" class="abrir-menu"> <img class="icon-open" src="../../../assets/icons/open-menu.png" alt=""> </button>
+  <button id="abrir" (click)="abrir()" class="abrir-menu"> <span class="anticon" nz-icon  nzType="menu-unfold" nzTheme="outline"></span> </button>
   <nav class="nav" id="nav">
-      <button class="cerrar-menu" id="cerrar" (click)="cerrar()" > <img class="icon-close" src="../../../assets/icons/close-menu.png" alt=""> </button>
+      <button class="cerrar-menu" id="cerrar" (click)="cerrar()" > <span nz-icon nzType="close-circle" nzTheme="outline"></span> </button>
       <ul class="nav-list">
         @for (item of itemsMenu ; track $index) {
           <li><a [routerLink]="item?.url" (click)="cerrar()">{{ item?.ruta }}</a></li>

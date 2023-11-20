@@ -16,6 +16,11 @@ header {
   max-width: 5rem;
 }
 
+.anticon {
+  font-size: 2rem;
+  color: royalblue;
+}
+
 .nav-list {
   list-style-type: none;
   display: flex;
