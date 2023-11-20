@@ -1,11 +1,13 @@
 import { Component, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { NzIconModule } from 'ng-zorro-antd/icon';
+
 
 @Component({
   selector: 'app-menu',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, NzIconModule],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css'
 })
